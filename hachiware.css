@@ -1,0 +1,50 @@
+body {
+    background-fill: 100%;
+    background-color: #c3d1e0;
+    position: relative;
+}
+header {
+  	width: 85%;
+  	height: 400px;
+  	border-radius: 10px;
+  	position: relative;
+    margin-top:10px;
+  	margin-left: 7%;
+    margin-right: 3%;
+  	background: url("hachiware\ and\ friends.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: solid #1f487e 2pt;
+    }
+header span {
+    color: #1f487e;
+    background-color: rgb(170, 196, 219);
+    border-radius: 10px;
+  	font-size: 5rem;
+  	position: absolute;
+  	bottom: 0;
+  	right: 10px;
+  	margin: 10px;
+  	font-weight: bold;
+    }
+#container {
+  	background-size: cover;
+  	width: 1600px;
+  	margin: 0 auto;
+    border-radius: 10px;
+  	height: 1000px;
+  	margin-top:10px;
+  	margin-bottom: 10px;
+  	position:relative;
+    border: solid #375681 2pt;
+    background-color: rgb(176, 198, 223);
+}
+.rectangle {
+    padding: 5pt;
+    text-align: center;
+    border-radius: 10px;
+    border: solid #375681 2pt;
+    background-color: rgb(136, 167, 202);
+    position: absolute;
+}
