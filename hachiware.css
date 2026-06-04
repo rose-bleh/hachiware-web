@@ -28,12 +28,20 @@ header span {
   	margin: 10px;
   	font-weight: bold;
     }
+body {
+  font-family: "DM Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+p {
+  font-size: 20px;
+}
 #container {
   	background-size: cover;
   	width: 1600px;
   	margin: 0 auto;
     border-radius: 10px;
-  	height: 1000px;
+  	height: 900px;
   	margin-top:10px;
   	margin-bottom: 10px;
   	position:relative;
@@ -47,4 +55,15 @@ header span {
     border: solid #375681 2pt;
     background-color: rgb(136, 167, 202);
     position: absolute;
+}
+.rectangle:hover, header:hover {
+  transform: scale(1.03);
+  filter:brightness(110%);
+}
+a:hover {
+  background-color: #c3d1e0;
+  border-radius: 3px;
+}
+a {
+  text-decoration: none; color: rgb(34, 22, 90); 
 }
